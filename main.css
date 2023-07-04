@@ -26,6 +26,14 @@ body {
   display: flex;
   gap: 20px;
 }
+.ulist li{
+    transition: all 0.3s ease;
+}
+.chat{
+    padding: 10px 14px;
+    background-color: #fe8267;
+    border-radius: 10px;
+}
 
 .hero {
   background-color: #260c65;
@@ -102,7 +110,7 @@ body {
 
 .btn {
   background-color: #fe8267;
-  padding: 10px 16px;
+  padding: 8px 12px;
   border-radius: 8px;
   color: blue;
   font-size: x-large;
