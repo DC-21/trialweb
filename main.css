@@ -39,20 +39,38 @@ body {
     display: flex;
 }
 .txt {
+    align-items: center;
+    justify-content: center;
     flex: 1;
     text-align: center;
     font-size: x-large;
     font-weight: 500;
-    padding-top: 6ch;
+    padding-top: 7ch;
     color: white;
+}
+.txt h3 {
+    padding-top: 30px;
+    font-size: larger;
+}
+.txt h1 {
+    padding-top: 10px;
 }
 .icons {
     color: white;
 }
 .img {
-    flex: 1;
     height: 100vh;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
 .btn {
     background-color: #fe8267;
     padding: 10px 16px;
