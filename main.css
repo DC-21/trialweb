@@ -46,6 +46,9 @@ body {
     padding-top: 6ch;
     color: white;
 }
+.icons {
+    color: white;
+}
 .img {
     flex: 1;
     height: 100vh;
