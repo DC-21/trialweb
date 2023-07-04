@@ -29,6 +29,11 @@ body {
 .ulist li{
     transition: all 0.3s ease;
 }
+.ulist li:hover{
+    padding: 10px 14px;
+    background-color: #fe8267;
+    border-radius: 10px;
+}
 .chat{
     padding: 10px 14px;
     background-color: #fe8267;
