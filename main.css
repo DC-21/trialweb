@@ -118,6 +118,7 @@ body {
 
 .btn:hover {
   background-color: white;
+  padding: 10px 14px;
 }
 .about {
   background-color: #463d8a;
